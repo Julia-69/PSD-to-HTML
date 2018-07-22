@@ -1,0 +1,342 @@
+/* ШРИФТ  */
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*  ТІЛО  */
+
+body{
+    font-family: 'Raleway', arial, sans-serif;
+    padding: 0;
+    margin: auto;
+}
+
+.clearfix{
+    content:"";
+    display: table;
+    width: 100%;
+    clear:both;
+}
+
+.container_1{
+    background: url("./img/center_img.jpg") no-repeat center top / cover;
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.heading img {
+    width: 200px;
+    float: left;
+    margin: 20px 0px 0px 10vw;
+
+}
+
+nav{
+    width: 550px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.menu{
+    display: block;
+    font-weight: 400;
+}
+
+.menu li{
+    float: left;
+    display: flex;
+    padding-right: 50px;
+    width: auto;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.menu li:nth-child(3) {
+    border-right: 1px solid gray;
+}
+
+.menu li:last-child {
+    padding-left: 50px;
+}
+
+.menu li a{
+    color: #2C3539;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    word-spacing: 5px;
+}
+
+h1{
+    color: #484848;
+    text-align: center;
+    margin-top: 21vh;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+.titles_first .colortext{
+    color: green;
+}
+
+h2{
+    font-size: 14px;
+    color: dimgray;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: lighter;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.input-append{
+    margin-left: 50px;
+    margin-bottom: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-group{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span2{
+    font-size: 30px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 400px;
+
+}
+
+.btt{
+    color: white;
+    background: #4dadbb;
+    margin: 0;
+    padding: 4px;
+    display: inline;
+    font-size: 14px;
+    width: 150px;
+    height: 52px;
+    position: absolute;
+    margin-left: 0px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.toggle{
+    display: inline-block;
+    font-size: 14px;
+    width: 150px;
+    height: 52px;
+    color: #8b8b8b;
+    margin-left: -150px;
+    position: absolute;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.actions {
+    text-align: center;
+    margin-top: 38vh;
+    vertical-align: middle;
+}
+
+.actions a {
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: green;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 20px;
+    padding: 25px 40px;
+    text-decoration: none;
+    opacity: 0.8;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+.actions img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    margin-top: 30px;
+}
+
+.actions p{
+    display: inline-block;
+
+}
+
+.titles_second{
+    padding-top: 5px;
+}
+
+.titles_second h2{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: none;
+    color: #181717;
+    margin-top: 100px;
+}
+
+.titles_second p{
+    color: #8b8b8b;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+#photo-wall{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+
+}
+
+#photo-wall li {
+    list-style: none;
+    float: left;
+    font: 10px/1.5 Verdata, Helvetica, sans-serifS;
+    width: 29%;
+    margin: 2% 2% 2% 2%;
+}
+
+#photo-wall img{
+    max-width: 100%;
+
+}
+
+#photo-wall p{
+    text-decoration: none;
+    text-transform: none;
+    color: #8b8b8b;
+    text-align: center;
+}
+
+.ttx{
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.ttx a{
+    color: #4dadbb;
+}
+
+/* ПІДВАЛ */
+
+footer{
+    background-color: #272727;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_top_1{
+    width: 100%;
+    height: 120px;
+    overflow: auto;
+}
+
+.footer_top_1  ul{
+    text-align: center;
+    justify-content: center;
+    height: 0px;
+}
+
+.footer_top_1 li{
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: inline-block;
+    justify-content: center;
+
+}
+.footer_top_1 a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 5px 20px;
+    text-align: center;
+
+}
+
+.footer_top img{
+    margin: 0 auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.footer_bottom{
+    background-color: #323232;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    overflow: auto;
+}
+
+.footer_bottom p{
+    margin-top: 4px;
+    text-align: center;
+}
+
+
+
+/* width - довжина від логотипу до іконок,
+border (border: 10px solid red) - виділена область довжини червоним кольором,
+margin 0 auto - посередині*/
+
+/* text-decoration - щоб забрати підкреслювання, text-transform: uppercase; - великі букви */
+
+/* звертаємось до всіх li з menu, margin-right: 56px - відстань між елементами*/
+
+/* в одну строку - float, margin-top: 53px; - відстань від контура до слова */
+
+/* width - довжина від логотипу до іконок,
+border (border: 10px solid red) - виділена область довжини червоним кольором,
+margin 0 auto - посередині*/
+
+
