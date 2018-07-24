@@ -21,7 +21,7 @@
 body{
     font-family: 'Raleway', arial, sans-serif;
     padding: 0;
-    margin: auto;
+    margin: 0;
 }
 
 .clearfix{
@@ -34,7 +34,7 @@ body{
 .container_1{
     background: url("./img/center_img.jpg") no-repeat center top / cover;
     width: 100%;
-    height: 90vh;
+    height: 97vh;
     margin: 0;
     overflow: hidden;
 }
@@ -76,7 +76,7 @@ nav{
     padding-left: 50px;
 }
 
-.menu li a{
+.menu a{
     color: #2C3539;
     text-decoration: none;
     text-transform: uppercase;
@@ -84,14 +84,14 @@ nav{
     word-spacing: 5px;
 }
 
-h1{
+h1 .titles_first{
     color: #484848;
     text-align: center;
-    margin-top: 21vh;
+    margin-top: 127px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: 700;
 
 }
@@ -169,35 +169,35 @@ h2{
 
 .actions {
     text-align: center;
-    margin-top: 38vh;
-    vertical-align: middle;
+    margin-top: 30vh;
+    height: 40px;
+    border: 1px;
+    margin-bottom: 1em;
 }
 
 .actions a {
     background-color: #ffffff;
-    border-radius: 3px;
+    border-radius: 5px;
     color: green;
-    font-size: 16px;
-    font-weight: 300;
-    display: inline-block;
-    margin: 20px;
-    padding: 25px 40px;
-    text-decoration: none;
     opacity: 0.8;
-    padding-top: 5px;
     vertical-align: middle;
+    margin: 22px;
+    padding: 25px 40px;
 }
 
 .actions img{
     width: 30px;
     height: 30px;
-    margin-right: 2px;
-    margin-top: 30px;
+    border-top-width: 20px;
+    vertical-align: middle;
 }
 
 .actions p{
     display: inline-block;
-
+    font-size: 20px;
+    font-weight: 300;
+    margin: 22px;
+    text-decoration: none;
 }
 
 .titles_second{
@@ -247,13 +247,14 @@ h2{
     text-transform: none;
     color: #8b8b8b;
     text-align: center;
+    font-size: 15px;
 }
 
 .ttx{
     text-decoration: underline;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .ttx a{
@@ -273,6 +274,7 @@ footer{
     width: 100%;
     height: 120px;
     overflow: auto;
+    display: inline-block;
 }
 
 .footer_top_1  ul{
@@ -291,14 +293,13 @@ footer{
 
 }
 .footer_top_1 a{
-    text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
     font-size: 12px;
     margin: 5px 20px;
+    justify-content: center;
+    text-decoration: none;
     text-align: center;
-
 }
 
 .footer_top img{
@@ -323,20 +324,161 @@ footer{
     text-align: center;
 }
 
+/*  Адаптивність  */
 
 
-/* width - довжина від логотипу до іконок,
-border (border: 10px solid red) - виділена область довжини червоним кольором,
-margin 0 auto - посередині*/
+@media screen and (min-width: 321px) and (max-width: 713px) {
+    .container_1 {
+        width: 100%;
+        height: 42vh;
+    }
+    nav{
+        width: 420px;
+        margin-right: auto;
+        margin-top: auto;
+    }
+    .menu a{
+        font-size: 7px;
+    }
+    .menu li{
+        padding-right: 30px;
+    }
+    .heading img {
+        width: 100px;
+    }
+    h1 .titles_first{
+        font-size: 17px;
+        margin-top: 70px;
+    }
+    h2{
+        font-size: 7px;
+    }
 
-/* text-decoration - щоб забрати підкреслювання, text-transform: uppercase; - великі букви */
+    .btn-group{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .toggle{
+        font-size: 8px;
+        width: 100px;
+        height: 32px;
+        color: #8b8b8b;
+        margin-left: -100px;
+    }
+    .span2 {
+        font-size: 8px;
+        height: 30px;
+        border-radius: 0px;
+        border: 0;
+        box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
+        width: 180px;
+        margin-left: 0px;
+    }
+    .btt{
+        font-size: 8px;
+        width: 90px;
+        height: 32px;
+        position: absolute;
+        margin-left: 0;
+    }
+    .actions{
+        margin-top: 0vh;
+        height: 10px;
+    }
+    .actions a {
+        border-radius: 0px;
+        vertical-align: middle;
+        margin: 15px;
+        padding: 10px 10px;
+    }
 
-/* звертаємось до всіх li з menu, margin-right: 56px - відстань між елементами*/
+    .actions img{
+        width: 15px;
+        height: 15px;
+    }
 
-/* в одну строку - float, margin-top: 53px; - відстань від контура до слова */
+    .actions p{
+        display: inline-block;
+        font-size: 8px;
+        margin: 30px;
+        text-decoration: none;
+    }
+    .titles_second h2{
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .titles_second p{
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    #photo-wall p {
+        font-size: 8px;
+    }
+    .ttx{
+        font-size: 8px;
+    }
+    .footer_top_1 img{
 
-/* width - довжина від логотипу до іконок,
-border (border: 10px solid red) - виділена область довжини червоним кольором,
-margin 0 auto - посередині*/
+    }
+    .footer_top_1 a{
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (min-width: 714px) and (max-width: 1024px){
+    .container_1{
+        width: 100%;
+        height: 55vh;
+    }
+    h1 .titles_first{
+        font-size: 30px;
+        margin-top: 120px;
+    }
+    .actions{
+        margin-top: 9vh;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .container_1 {
+        width: 100%;
+        height: 80vh;
+    }
+    h1 .titles_first{
+        font-size: 30px;
+        margin-top: 120px;
+    }
+    .actions{
+        margin-top: 22vh;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .container_1{
+        width: 100%;
+        height: 97vh;
+    }
+    h1 .titles_first{
+        font-size: 40px;
+        margin-top: 127px;
+    }
+    .actions{
+        margin-top: 30vh;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
