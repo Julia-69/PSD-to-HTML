@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwPIsWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+header{
+    background: url("./img/center_img.jpg") no-repeat center;
+    background-size: 100% auto;
+    height: 100vh;
+}
+
+.container img{
+    padding-top: 20px;
+    width: 220px;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+}
+.nav-link{
+    color: #434343 !important;
+    font-size: 13px;
+}
+
+.navbar-collapse{
+    font-size: 10px;
+}
+#text-center{
+    color: #434343;
+}
+
+h1{
+    padding-top: 130px;
+}
+h1 span{
+    color: #434343;
+}
+
+span .color{
+    color: green;
+}
+
+.span2{
+    width: 30vw;
+}
+
+.{
+    padding-top: 30vh;
+}
+
+h3{
+    padding-top: 15vh;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+#link{
+    padding-top: 10vh;
+    text-decoration: underline !important;
+    color: #42c5f4;
+}
+
+.container-fluid{
+    background: #323232;
+    width: 100%;
+    margin: auto;
+}
+
+#icon{
+    padding-top: 10vh;
+}
+
+#footer{
+    background: #272727;
+}
+
+#collapsingNavbar2{
+    font-size: 20px;
+}
+
+.line {
+    position: absolute;
+    left: 61%;
+    top: 25px;
+    bottom: 0;
+    width: 1px;
+    background: #ccc;
+    z-index: 1;
+    height: 40px;
+}
+
+#button1 {
+    border-radius: 10px 0 0 10px;
+}
+
+#button2 {
+    border-radius: 0 10px 10px 0;
+}
+
+#btn{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    opacity: 0.9;
+    color: forestgreen;
+    margin-left: 30px;
+}
+
+.input-group-prepend{
+    padding-top: 30vh;
+}
+
+.fa-th{
+    color: forestgreen;
+}
+
+.fa-hand-point-up{
+    color: forestgreen;
+}
+
